@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scicors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="output">
+        <div class="selection-display">
+            <div>
+                <p>You:</p>
+                <p id="player-selection"></p>
+                <p id="player-score"></p>
+            </div>
+            <div>
+                <p>Computer:</p>
+                <p id="com-selection"></p>
+                <p id="com-score"></p>
+            </div>
+        </div>
+        <p class="result"></p>
+    </div>
+    <div class="selections">
+        <button data-key="rock" class="selection">Rock</button>
+        <button data-key="paper" class="selection">Paper</button>
+        <button data-key="scissors" class="selection">Scissors</button>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
